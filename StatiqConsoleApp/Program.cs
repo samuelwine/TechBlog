@@ -8,8 +8,7 @@ namespace MySite
         public static async Task<int> Main(string[] args) =>
           await Bootstrapper
             .Factory
-            .CreateDefaultWithout(args, DefaultFeatures.Pipelines)
-            .AddWeb()
+            .CreateWeb(args)
             .RunAsync();
     }
 }

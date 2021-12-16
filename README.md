@@ -1,2 +1,2 @@
-# blog.github.io
+# TechBlog
 My tech blog built with Statiq

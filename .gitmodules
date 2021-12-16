@@ -1,0 +1,3 @@
+[submodule "StatiqConsoleApp/theme"]
+	path = StatiqConsoleApp/theme
+	url = https://github.com/statiqdev/CleanBlog.git

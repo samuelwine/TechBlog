@@ -8,6 +8,72 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="output\favicon.ico" />
+    <Content Include="output\img\about-bg.jpg" />
+    <Content Include="output\img\contact-bg.jpg" />
+    <Content Include="output\img\home-bg.jpg" />
+    <Content Include="output\img\post-bg.jpg" />
+    <Content Include="output\img\post-sample-image.jpg" />
+    <Content Include="output\index.html" />
+    <Content Include="output\scss\clean-blog.css" />
+    <Content Include="output\sitemap.xml" />
+    <Content Include="output\vendor\bootstrap\scss\bootstrap-grid.css" />
+    <Content Include="output\vendor\bootstrap\scss\bootstrap-reboot.css" />
+    <Content Include="output\vendor\bootstrap\scss\bootstrap.css" />
+    <Content Include="output\vendor\fontawesome-free\css\all.css" />
+    <Content Include="output\vendor\fontawesome-free\css\all.min.css" />
+    <Content Include="output\vendor\fontawesome-free\css\brands.css" />
+    <Content Include="output\vendor\fontawesome-free\css\brands.min.css" />
+    <Content Include="output\vendor\fontawesome-free\css\fontawesome.css" />
+    <Content Include="output\vendor\fontawesome-free\css\fontawesome.min.css" />
+    <Content Include="output\vendor\fontawesome-free\css\regular.css" />
+    <Content Include="output\vendor\fontawesome-free\css\regular.min.css" />
+    <Content Include="output\vendor\fontawesome-free\css\solid.css" />
+    <Content Include="output\vendor\fontawesome-free\css\solid.min.css" />
+    <Content Include="output\vendor\fontawesome-free\css\svg-with-js.css" />
+    <Content Include="output\vendor\fontawesome-free\css\svg-with-js.min.css" />
+    <Content Include="output\vendor\fontawesome-free\css\v4-shims.css" />
+    <Content Include="output\vendor\fontawesome-free\css\v4-shims.min.css" />
+    <Content Include="output\vendor\fontawesome-free\webfonts\fa-brands-400.eot" />
+    <Content Include="output\vendor\fontawesome-free\webfonts\fa-brands-400.ttf" />
+    <Content Include="output\vendor\fontawesome-free\webfonts\fa-brands-400.woff" />
+    <Content Include="output\vendor\fontawesome-free\webfonts\fa-regular-400.eot" />
+    <Content Include="output\vendor\fontawesome-free\webfonts\fa-regular-400.ttf" />
+    <Content Include="output\vendor\fontawesome-free\webfonts\fa-regular-400.woff" />
+    <Content Include="output\vendor\fontawesome-free\webfonts\fa-solid-900.eot" />
+    <Content Include="output\vendor\fontawesome-free\webfonts\fa-solid-900.ttf" />
+    <Content Include="output\vendor\fontawesome-free\webfonts\fa-solid-900.woff" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="output\feed.atom" />
+    <None Include="output\feed.rss" />
+    <None Include="output\js\clean-blog.js" />
+    <None Include="output\js\contact_me.js" />
+    <None Include="output\js\jqBootstrapValidation.js" />
+    <None Include="output\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <None Include="output\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="output\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="output\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="output\vendor\bootstrap\js\bootstrap.js" />
+    <None Include="output\vendor\bootstrap\js\bootstrap.js.map" />
+    <None Include="output\vendor\bootstrap\js\bootstrap.min.js" />
+    <None Include="output\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <None Include="output\vendor\fontawesome-free\webfonts\fa-brands-400.svg" />
+    <None Include="output\vendor\fontawesome-free\webfonts\fa-brands-400.woff2" />
+    <None Include="output\vendor\fontawesome-free\webfonts\fa-regular-400.svg" />
+    <None Include="output\vendor\fontawesome-free\webfonts\fa-regular-400.woff2" />
+    <None Include="output\vendor\fontawesome-free\webfonts\fa-solid-900.svg" />
+    <None Include="output\vendor\fontawesome-free\webfonts\fa-solid-900.woff2" />
+    <None Include="output\vendor\jquery\jquery.js" />
+    <None Include="output\vendor\jquery\jquery.min.js" />
+    <None Include="output\vendor\jquery\jquery.min.map" />
+    <None Include="output\vendor\jquery\jquery.slim.js" />
+    <None Include="output\vendor\jquery\jquery.slim.min.js" />
+    <None Include="output\vendor\jquery\jquery.slim.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Statiq.Web" Version="1.0.0-beta.37" />
   </ItemGroup>
 
